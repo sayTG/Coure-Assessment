@@ -6,6 +6,7 @@ namespace Telecommunication.Data
 {
     public class TestData
     {
+        //seed data into database
         public static void TestData1(AppDbContext _context)
         {
             List<Country> countryData = new List<Country>()

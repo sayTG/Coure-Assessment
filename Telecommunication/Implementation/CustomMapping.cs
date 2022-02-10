@@ -10,6 +10,7 @@ namespace Telecommunication.Implementation
 {
     public class CustomMapping : ICustomMapping
     {
+        //map country and its details into their corresponding DTOs
         public DetailsDTO Map(string number, Country country, DetailsDTO detailsDTO)
         {
             detailsDTO.Number = number;

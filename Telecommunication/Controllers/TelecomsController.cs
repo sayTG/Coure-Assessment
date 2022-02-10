@@ -26,8 +26,8 @@ namespace Telecommunication.Controllers
         [HttpGet("countrydetails")]
         public IActionResult GetCountryDetails(string phoneNumber)
         {
-            if (string.IsNullOrEmpty(phoneNumber))
-                return BadRequest("please provide a phone number");
+            if (string.IsNullOrEmpty(phoneNumber) || !phoneNumber.All(char.IsDigit))
+                return BadRequest("Please provide a valid phone number");
             string countryCode = phoneNumber.CountryCode();
             if (string.IsNullOrEmpty(countryCode))
                 return BadRequest("Could not retrieve country code");

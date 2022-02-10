@@ -17,6 +17,7 @@ namespace Telecommunication.Implementation
         }
         public Country GetDetails(string countryCode, string number)
         {
+            //get country with its details
             return _context.Country.Where(x => x.CountryCode.Equals(countryCode))
                                               .Include(x => x.CountryDetails)
                                               .FirstOrDefault();

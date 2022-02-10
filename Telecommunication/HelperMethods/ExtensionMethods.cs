@@ -8,6 +8,7 @@ namespace Telecommunication.HelperMethods
 {
     public static class ExtensionMethods
     {
+        //get a valid country code from a phoneNumber
         public static string CountryCode(this string phoneNumber)
         {
             string number = "+" + phoneNumber;

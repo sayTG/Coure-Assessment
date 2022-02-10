@@ -14,11 +14,12 @@ namespace EvenOddModulo.Test
             int i = 0;
             foreach (var sample in Samples())
             {
+                //compare the valid answer with the result from EvenOdd method
                 Assert.AreEqual(ans[i], Modulo.EvenOdd(sample));
                 i++;
             }
         }
-
+        //data samples
         private int[][] Samples()
         {
             int[][] samples = new int[4][];
