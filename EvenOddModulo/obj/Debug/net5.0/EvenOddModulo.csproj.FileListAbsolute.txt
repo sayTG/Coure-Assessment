@@ -1,0 +1,12 @@
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\bin\Debug\net5.0\EvenOddModulo.deps.json
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\bin\Debug\net5.0\EvenOddModulo.dll
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\bin\Debug\net5.0\ref\EvenOddModulo.dll
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\bin\Debug\net5.0\EvenOddModulo.pdb
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.dll
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\ref\EvenOddModulo.dll
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.pdb
+C:\Users\Administrator\Downloads\sayTG\Coure Assessment\EvenOddModulo\obj\Debug\net5.0\EvenOddModulo.csproj.AssemblyReference.cache

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Algorithm/1.0.0": {
+        "dependencies": {
+          "EvenOddModulo": "1.0.0"
+        },
+        "runtime": {
+          "Algorithm.dll": {}
+        }
+      },
+      "EvenOddModulo/1.0.0": {
+        "runtime": {
+          "EvenOddModulo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EvenOddModulo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
