@@ -22,21 +22,6 @@ namespace Telecommunication.HelperMethods
             {
                 throw new Exception("NumberParseException was thrown: " + e.ToString());
             }
-            
-        }
-        public static bool ValidNumber(this string phoneNumber)
-        {
-            string number = "+" + phoneNumber;
-            PhoneNumberUtil phoneUtil = PhoneNumberUtil.GetInstance();
-            try
-            {
-                PhoneNumber numberFormat = phoneUtil.Parse(number, "");
-                return phoneUtil.IsValidNumber(numberFormat);
-            }
-            catch (NumberParseException e)
-            {
-                throw new Exception("NumberParseException was thrown: " + e.ToString());
-            }
         }
     }
 }
