@@ -26,16 +26,12 @@ namespace Telecommunication.HelperMethods
         }
         public static bool ValidNumber(this string phoneNumber)
         {
-            bool isValid = false;
             string number = "+" + phoneNumber;
             PhoneNumberUtil phoneUtil = PhoneNumberUtil.GetInstance();
             try
             {
                 PhoneNumber numberFormat = phoneUtil.Parse(number, "");
-                if (!string.IsNullOrEmpty(numberFormat.ToString()))
-                    isValid = true;
-                return isValid;
-                //return phoneUtil.IsValidNumber(numberFormat);
+                return phoneUtil.IsValidNumber(numberFormat);
             }
             catch (NumberParseException e)
             {
